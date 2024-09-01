@@ -1,6 +1,9 @@
 # Obstacle Detection
 Bu repository, Teknofest Robotaxi yarışması için tasarlanmış bir otonom araç için OpenCV ve NumPy kütüphanelerini kullanarak, belirli renk aralıklarına sahip nesneleri tespit eden ve bu nesnelerin özelliklerini analiz eden kodları içermektedir.
 
+![Otonom Araç](https://github.com/beyzaarikan/detection/blob/main/githuba.jpg)
+
+
 Renk Tabanlı Maskeleme: Kırmızı renk tonlarına sahip nesneleri tespit eder.
 
 Kontur Tespiti: Maske üzerinde konturları bularak nesnelerin sınırlarını belirler.
