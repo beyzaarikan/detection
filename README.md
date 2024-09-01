@@ -1,6 +1,5 @@
 # Obstacle Detection
-
-Bu proje, OpenCV ve NumPy kütüphanelerini kullanarak, belirli renk aralıklarına sahip nesneleri tespit eder ve bu nesnelerin özelliklerini analiz eder.
+Bu repository, Teknofest Robotaxi yarışması için tasarlanmış bir otonom araç için OpenCV ve NumPy kütüphanelerini kullanarak, belirli renk aralıklarına sahip nesneleri tespit eden ve bu nesnelerin özelliklerini analiz eden kodları içermektedir.
 
 Renk Tabanlı Maskeleme: Kırmızı renk tonlarına sahip nesneleri tespit eder.
 
@@ -40,7 +39,7 @@ final_mask = processor.process_image("den.png", print=True) # Görüntüyü işl
 - `x2`, `y2`: İkinci noktanın koordinatları.
 
 **return:**
-distance (hipotenüs).
+- distance (hipotenüs).
 
 ### `process_image(img, print=False)`
 Görüntüyü işler ve tespit edilen nesneleri belirler. Görüntüyü dosya adı olarak veya `numpy` dizisi olarak alır.
