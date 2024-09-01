@@ -12,15 +12,10 @@ Dikdörtgen Tespiti: Nesnelerin köşelerini ve boyutlarını analiz eder.
 
 Görselleştirme: Tespit edilen nesnelerin merkezlerine ve köşelerine işaretler ekler.
 
-Gereksinimler:
-Python 
-OpenCV
-NumPy
-
 ## Kullanım
- ObstacleDetection sınıfını kullanarak bir nesne oluşturun.
+ObstacleDetection sınıfını kullanarak bir nesne oluşturun.
  
-process_image metodunu kullanarak bir görüntüyü işleyin. Görüntüyü bir dosya adı olarak veya doğrudan bir numpy dizisi olarak geçebilirsiniz.
+process_image metodunu kullanarak görüntüyü işleyin. Görüntüyü bir dosya adı olarak veya doğrudan bir numpy dizisi olarak geçebilirsiniz.
 
 İşlenen görüntüde tespit edilen engellerin merkezleri ve boyutları hakkında bilgi alabilirsiniz.
 
